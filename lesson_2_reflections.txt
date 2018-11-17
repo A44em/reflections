@@ -27,4 +27,11 @@ the diagram the way we do?
 	A final one branch that holds all the commits that were made in the two branches. Because they are not in a linear relationship with each others.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+manually
+
+	pros:
+	1. It saves time.
+	2. It makes some complicated parent pointing and linking commits together without me being in the middle.
+	
+	cons:
+	1. Conflicts can arise and it can't resolve them.
